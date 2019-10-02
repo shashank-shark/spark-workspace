@@ -5,10 +5,10 @@
 		<item value="10" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item value="591" key="dialogHeight"/>
-		<item value="772" key="dialogWidth"/>
+		<item value="585" key="dialogHeight"/>
+		<item value="766" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
+			<item value="2"/>
 			<item value="1"/>
 		</list>
 		<list key="orderedElements">
@@ -21,6 +21,7 @@
 		</list>
 		<list key="textArray">
 			<item value="font"/>
+			<item value="fon"/>
 			<item value="dark"/>
 		</list>
 	</section>
