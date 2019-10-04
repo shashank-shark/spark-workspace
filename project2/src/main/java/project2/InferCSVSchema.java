@@ -24,7 +24,7 @@ public class InferCSVSchema {
 		
 		System.out.println("The dataframe content");
 		
-		df.show(7);
+		df.show(7, 90);
 		
 		System.out.println("Dataframe's Schema : ");
 		df.printSchema();
