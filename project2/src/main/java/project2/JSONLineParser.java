@@ -13,8 +13,13 @@ public class JSONLineParser {
 				.master("local")
 				.getOrCreate();
 		
+//		Dataset<Row> df = spark.read().format("json")
+//				.load("src/main/resources/simple.json");
+		
 		Dataset<Row> df = spark.read().format("json")
-				.load("src/main/resources/simple.json");
+				.option("multiline", true)
+				.load("src/main/resources/multiline.json");
+		
 		
 		df.show (5, 150);
 		df.printSchema();
