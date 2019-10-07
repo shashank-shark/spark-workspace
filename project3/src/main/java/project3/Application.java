@@ -33,7 +33,15 @@ public class Application {
 					df.col("fields.objectid"),
 					lit("_Durham")
 						)
-				);
+				)
+				.withColumn("park_name", df.col("fields.park_name"))
+				.withColumn("city", lit("Durhma"))
+				.withColumn("has_playground", df.col("fields.playground"))
+				.withColumn("zipcode", df.col("fields.zip"))
+				.withColumn("land_in_acres", df.col("fields.acres"))
+				.withColumn("geoX", df.col("geometry.coordinates").getItem(0))
+				.withColumn("geoY", df.col("geometry.coordinates").getItem(1));
+				
 	
 		return df;
 	}
