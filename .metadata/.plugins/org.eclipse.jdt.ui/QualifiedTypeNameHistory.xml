@@ -4,14 +4,15 @@
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.SaveMode"/>
 <fullyQualifiedTypeName name="project2.InferCSVSchema"/>
-<fullyQualifiedTypeName name="org.apache.spark.sql.SparkSession"/>
-<fullyQualifiedTypeName name="org.apache.spark.sql.SparkSession.Builder"/>
 <fullyQualifiedTypeName name="scala.tools.nsc.typechecker.StructuredTypeStrings"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.types.StructType"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.types.DataType"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.types.StructField"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.types.DataTypes"/>
+<fullyQualifiedTypeName name="project2.DefineCSVSchema"/>
+<fullyQualifiedTypeName name="org.apache.spark.sql.SparkSession"/>
+<fullyQualifiedTypeName name="org.apache.spark.sql.SparkSession.Builder"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.Dataset"/>
 <fullyQualifiedTypeName name="org.apache.spark.sql.Row"/>
-<fullyQualifiedTypeName name="project2.DefineCSVSchema"/>
+<fullyQualifiedTypeName name="org.apache.spark.sql.functions"/>
 </qualifiedTypeNameHistroy>
